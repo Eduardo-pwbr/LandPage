@@ -1,0 +1,115 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    border: none;
+    text-decoration: none;
+}
+header{
+  
+    display: flex;
+    align-items: center;
+    justify-content:space-between;    
+    flex-direction: row;
+    margin-top: 35px;
+    padding: 5px;
+}
+
+.logo-container{
+    display: flex;
+   /* align-items: center;*/
+
+    margin-right: 117px;
+    gap: 20px;
+    font-size: 20px;
+    
+}
+
+.logo-container h1{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+nav{
+    display: flex;
+    margin-right: 153px;
+    gap: 37px; 
+    
+}
+
+button{
+    
+    background-color: transparent;
+   
+   /*width: 150px;
+    height: 45px;
+    top:46px;
+    left: 12px;
+
+    border-radius: 50px;
+    border: solid 1px #f53855;
+    width: 150px;
+    height: 45px;
+    color:#f53855;*/
+    
+  
+}
+.acess-container{
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+
+}
+.acess-container:last-child{
+
+    border-radius: 50px;
+    border: solid 1px #f53855;
+    width: 150px;
+    height: 45px;
+    color:#f53855;
+
+}
+nav a{
+    color: #4f5665;
+    font-size: 16px;
+}
+
+/*Segunda parte*/
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 89px;
+    gap: 41px;
+}
+.section-content{
+    width: 555px;
+
+}
+.section-content h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 28px;
+
+}
+.section-content p{
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+.section-content button{
+    width: 250px;
+    height: 60px;
+    background-color: #f53838;
+    border-radius: 10px;
+    color: #ffff;
+    margin-top: 25px;
+    font-size: 160px;
+    font-weight: 700;
+
+}
