@@ -1,2 +1,2 @@
 # LandPage
-Defafio de landPage,  feita com html e css.
+Defafio de landPage,  feita com Html, Css, JavaScript.
